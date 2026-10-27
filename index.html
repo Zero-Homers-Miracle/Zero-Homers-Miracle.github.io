@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero | Homepage</title>
+  <!--
+    ✏️ 如何个性化这个页面（搜 "EDIT" 找到所有可改的地方）：
+    1. 把所有写着 EDIT 的内容换成你自己的介绍
+    2. 不要放学号、真实姓名（如不想公开）、邮箱等隐私信息
+    3. 改完保存，重新 push 到 GitHub 仓库即可更新线上页面
+  -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+      color: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      max-width: 640px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      padding: 3rem;
+      backdrop-filter: blur(8px);
+    }
+    .avatar {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #7f5af0, #2cb67d);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.5rem; font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .tagline { color: #9fb3c8; margin-bottom: 2rem; font-size: 1.05rem; }
+    h2 {
+      font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em;
+      color: #7f5af0; margin: 1.75rem 0 0.6rem;
+    }
+    p, li { line-height: 1.7; color: #d9e2ec; }
+    ul { padding-left: 1.2rem; }
+    a { color: #2cb67d; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .links { margin-top: 2rem; display: flex; gap: 1rem; }
+    .btn {
+      padding: 0.6rem 1.2rem;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 8px;
+      color: #f0f4f8;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: rgba(255, 255, 255, 0.12); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <!-- EDIT: 头像里的首字母，换成你昵称的首字母 -->
+    <div class="avatar">Z</div>
+
+    <!-- EDIT: 你的昵称（可用网名，不必是真名） -->
+    <h1>Hi, I'm Zero 👋</h1>
+    <!-- EDIT: 一句话介绍你自己 -->
+    <p class="tagline">A student learning to build agentic AI products.</p>
+
+    <h2>About me</h2>
+    <!-- EDIT: 用 2-3 句话介绍你自己：你是谁、对什么感兴趣 -->
+    <p>
+      I'm taking the course "Building Agentic AI Products with Vibe Coding".
+      I like learning by building small things and seeing them run.
+    </p>
+
+    <h2>What I'm learning</h2>
+    <!-- EDIT: 换成你自己正在学的东西 -->
+    <ul>
+      <li>Git &amp; GitHub — keeping track of changes and sharing work</li>
+      <li>How AI agents work — the agent loop</li>
+      <li>Building simple web pages like this one</li>
+    </ul>
+
+    <h2>Find me</h2>
+    <!-- EDIT: 把链接里的用户名换成你自己的 GitHub 用户名 -->
+    <div class="links">
+      <a class="btn" href="https://github.com/Zero-Homers-Mirable">GitHub Profile</a>
+    </div>
+  </main>
+</body>
+</html>
